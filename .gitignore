@@ -1,0 +1,10 @@
+# Ambiente virtual — cada máquina cria o seu
+.venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Lixo do sistema
+.DS_Store
+Thumbs.db

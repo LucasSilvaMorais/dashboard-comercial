@@ -1,0 +1,15 @@
+# Tema Dark global do aplicativo.
+# O Streamlit lê este arquivo sozinho ao iniciar — não precisa importar nada.
+
+[theme]
+base = "dark"
+primaryColor = "#E9A93C"              # âmbar — botões primários, foco, sliders
+backgroundColor = "#12151C"           # fundo da área principal
+secondaryBackgroundColor = "#1A1F2B"  # sidebar, inputs, cards nativos
+textColor = "#E8EBF2"
+
+[client]
+toolbarMode = "minimal"   # esconde o menu de dev; deixa cara de produto
+
+[server]
+runOnSave = true          # salvou o .py, o app recarrega sozinho
